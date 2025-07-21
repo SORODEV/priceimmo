@@ -1,0 +1,77 @@
+
+/* style.css */
+
+/* --- GENERAL --- */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF; /* Texte blanc */
+    background-color: #0E1117; /* Fond sombre de Streamlit */
+}
+
+/* --- SIDEBAR --- */
+.css-1d391kg {
+    background-color: #1a1f2e; /* Couleur de fond plus foncée pour la sidebar */
+    border-right: 1px solid #2c3344;
+}
+
+.css-1d391kg .st-emotion-cache-16txtl3 {
+    color: #e1e1e1; /* Couleur du texte de la sidebar */
+}
+
+/* --- MAIN CONTENT --- */
+.stApp {
+    background-color: #0E1117;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF; /* Titres en blanc */
+}
+
+/* --- WIDGETS --- */
+
+/* Boutons */
+.stButton>button {
+    background-color: #4A90E2; /* Bleu pour les boutons */
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #357ABD;
+}
+
+/* File Uploader */
+.stFileUploader {
+    border: 2px dashed #4A90E2;
+    background-color: #1a1f2e;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stFileUploader label {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+/* Métriques */
+.stMetric {
+    background-color: #1a1f2e;
+    border: 1px solid #2c3344;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.stMetric .st-emotion-cache-1wivap2 {
+    color: #4A90E2; /* Couleur de la valeur de la métrique */
+}
+
+/* Dataframe */
+.stDataFrame {
+    border: 1px solid #2c3344;
+    border-radius: 10px;
+}
